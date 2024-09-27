@@ -3,7 +3,7 @@ nodes:
     internal_address: 192.168.5.11
     user: vagrant
     ssh_key_path: /home/stagiaire/vagrant-rancher-ha/.vagrant/machines/master-1/virtualbox/private_key
-    role: [controlplane,worker,etcd]
+    role: [controlplane,etcd]
     
   - address: 192.168.5.21
     internal_address: 192.168.5.21
